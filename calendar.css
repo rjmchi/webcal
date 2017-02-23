@@ -1,0 +1,72 @@
+body { 
+	font-family: Arial, Helvetica, sans-serif;
+	color:black; 
+	background-color:#ffffff; 
+}
+table.cal-table 
+{ 
+	background-color:#FF9900; 
+	border-color:#99cc66; 
+	color: #333333;
+	width: 150;
+	height: 126;
+	border-width: 4;
+	border-style: solid;
+	padding:2px;
+	font-size: 10px;
+}
+table.cal-table td { 
+	border-width: 0;
+	border-style: solid;
+	text-align: center;
+}
+td.busy {
+	border-width: 0;
+	border-style: solid;
+	text-align: center;
+	background-color:#FFCC00;
+}
+	
+table.cal-table th { 
+	border-width: 0;
+	border-style: solid;
+	text-align: center;
+	font-size: 11px;
+}
+
+.cal-table a{
+	color:rgb(0,0,102); 
+	text-decoration:none; 
+}
+
+
+.eventdate
+{
+	font-family: Verdana, Arial, Helvetica; 
+	font-size: 20px; 
+	color: #99cc66; 
+	text-align: center;
+	margin-top:25px;
+	margin-bottom:10px;
+}
+
+.eventhead
+{
+	font-family: Verdana, Arial, Helvetica; 
+	font-size: 16px; 
+	color: #99cc66; 
+	margin-left:10px;
+	margin-top:0px;
+	margin-bottom:2px;
+}
+
+ 
+.eventdesc
+{
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 12px;
+	color: #ff9900;
+	margin-left:25px;
+	margin-top:0px;
+	margin-bottom:0px;
+}

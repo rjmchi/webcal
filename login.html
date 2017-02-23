@@ -1,0 +1,70 @@
+<html>
+<head>
+<link rel="stylesheet" href="admin.css">
+<script language="JavaScript">
+<!--
+function validate_form(form)
+{
+	error = 0;
+	var par = document.getElementById("usermsg");
+	if (form.userid.value == '')
+	{
+		par.childNodes[0].nodeValue = "Error: Cannot be empty";
+		error = 1;
+	}
+	else
+	{
+		par.childNodes[0].nodeValue = "";
+	}
+	
+	par = document.getElementById("pwmsg");
+	if (form.pwd.value == '')
+	{
+		par.childNodes[0].nodeValue = "Error: Cannot be empty";
+		error = 1;
+	}
+	else
+	{
+		par.childNodes[0].nodeValue = "";
+	}
+	if (!error)
+	{
+		form.submit();
+	}
+}
+-->
+</script>
+</head>
+<body>
+<form name="form1" action="addevent.php" method="post">
+<table border="0" width="524">
+<tr>
+<td width="78">User Id:</td>
+            <td width="203"><input type="text" name="userid" maxlength="25" size="25"> 
+			</td><td width="229">
+			<p class="errormsg" id="usermsg">&nbsp;</P>
+            </td>
+</tr>
+<tr>
+<td width="78">Password:</td>
+<td width="203"><input type="password" name="pwd" maxlength="25" size="25"></td>
+<td width="229"><p class="errormsg" id="pwmsg">&nbsp;</p></td>
+</tr>
+</table>
+<p><input type="button" name="Login" value="Sign In" onClick="validate_form(this.form);"></p>
+</form>
+
+<table cellpadding="5" align="left" class="admin">
+<tr>
+<td>
+<a href="adduser.php">[Add User]</a>
+</td>
+<td>&nbsp;</td>
+<td>
+<a href="changepw.php">[Change Password]</a>
+</td>
+</tr>
+</table>
+
+</body>
+</html>

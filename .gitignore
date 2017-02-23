@@ -1,0 +1,15 @@
+*.log
+
+/.htaccess
+/license.txt
+/readme.html
+/sitemap.xml
+/sitemap.xml.gz
+
+.project
+node_modules/
+build/
+picassa.ini
+.buildpath
+Thumbs.db
+*.psd
